@@ -3,18 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory Game</title>
-    <link rel="stylesheet" href="game.css">
+    <title>Memory Games</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="game-container">
-        <h1>Memory Game</h1>
-        <div class="score-board">
-            <span>Score: </span><span id="score">0</span>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Choose Your Memory Game</h1>
+        <div class="games">
+            <a href="./Game.html" class="game-link">
+                <div class="game-image number-game"></div>
+                <span>Number Memory Game</span>
+            </a>
+            <a href="./Fruit.html" class="game-link">
+                <div class="game-image fruit-game"></div>
+                <span>Fruit Memory Game</span>
+            </a>
         </div>
-        <button id="reset-button">Reset Game</button>
-        <div class="game-board" id="game-board"></div>
     </div>
-    <script src="game.js"></script>
+    <footer>
+        <p>&copy; 2024 Memory Games. All rights reserved.</p>
+        <p><a href="https://www.linkedin.com/in/piyush-kumar-badhan/">Contact Us</a></p>
+    </footer>
 </body>
 </html>
